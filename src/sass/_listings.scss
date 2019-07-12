@@ -8,8 +8,15 @@ header {
         float: left;
         padding-left: 10px;
         img {
-            max-width: 100px;
-            max-height: 100px;
+            max-width: 70px;
+            max-height: 70px;
+            position: relative;
+            left: 30px;
+            padding-bottom: 10px;
+        }
+
+        h5 {
+            letter-spacing: 1.6px;
         }
     }
 
