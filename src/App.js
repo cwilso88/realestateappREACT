@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
+import RealEstate from './RealEstate';
+import Header from './Header';
+import AboutUs from './pages/AboutUs'
+import Login from './pages/Login'
+import Advertise from './pages/Advertise'
+import Register from './pages/Register'
+import RealEstate from './RealEstate';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+    render() {
+        return (
+            <div>
+                <BrowserRouter>
+                    <div>
+                        <Header />
+                        <section id="content-area">
+                            <Route exact path="/" component={RealEstate}></Route>
+                            <Route exact path="/login" component={Login}></Route>
+                            <Route exact path="/about" component={AboutUs}></Route>
+                            <Route exact path="/advertise" component={Advertise}></Route>
+                            <Route exact path="/register" component={Register}></Route>
+                        </section>
+                    </div>
+                </BrowserRouter>
+            </div>
+        )
+    }
 }
 
 export default App;
+
+
