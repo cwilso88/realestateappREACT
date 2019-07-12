@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 
 import Filter from './Filter.js'
 import Listings from './Listings.js'
-import listingsData from './data/listingsData.js'
+import listingsData from '../../data/listingsData'
 
 class RealEstate extends Component {
     constructor() {

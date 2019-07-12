@@ -7,7 +7,7 @@ import Login from './components/pages/Login';
 import Advertise from './components/pages/Advertise';
 import Register from './components/pages/Register';
 
-
+import './sass/main.scss';
 
 class App extends Component {
     render() {
