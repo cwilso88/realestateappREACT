@@ -13,7 +13,7 @@ export default class Header extends Component {
         return (
             <header>
                 <div className="logo">
-                    <img src="../../img/logo.png" alt="luxuryhomes"/>
+                    <img src="../img/logo.png" alt="luxuryhomes"/>
                 </div>
                 <BrowserRouter>
                     <nav>
