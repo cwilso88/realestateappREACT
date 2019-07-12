@@ -4,7 +4,7 @@ const Advertise = () => {
     const imgLink = "https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/651334/600/400/m2/fpnw/wm0/atlanta03small-.jpg?1441996098&s=583b356665fedb0f12a8701b9c7df4fe";
     
     return (
-        <section className="section-container" id="aboutUs">
+        <section className="section-container" id="advertise">
             <div className="pages-background-image">
                 <h1>Your Deams of Owning A Home Can Come True</h1>
                 <article>
@@ -21,7 +21,7 @@ const Advertise = () => {
                    </main>
             </article>
 
-                <img src={imgLink} alt=""/>
+                <img src={imgLink} alt="Buy a home in Atlanta"/>
             </div>
         </section>
     )

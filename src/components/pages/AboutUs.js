@@ -21,7 +21,7 @@ const AboutUs = () => {
                    </main>
             </article>
 
-                <img src={imgLink} alt=""/>
+                <img src={imgLink} alt="Buy a house in Atlanta"/>
             </div>
         </section>
     )
