@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import ReactDOM from 'react-dom'
 
 import Filter from './Filter.js'
 import Listings from './Listings.js'
