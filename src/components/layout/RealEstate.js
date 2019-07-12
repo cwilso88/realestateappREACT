@@ -71,22 +71,22 @@ class RealEstate extends Component {
             return item.price >= this.state.min_price && item.price <= this.state.max_price && item.floorSpace >=this.state.min_floor_space && item.floorSpace <= this.state.max_floor_space && item.rooms >= this.state.bedrooms      
          })
 
-        if(this.state.city != "All") {
+        if(this.state.city !== "All") {
             newData = newData.filter((item) => {
-                return item.city == this.state.city
+                return item.city === this.state.city
             })
         }
 
         
-        if(this.state.homeType != "All") {
+        if(this.state.homeType !== "All") {
             newData = newData.filter((item) => {
-                return item.homeType == this.state.homeType
+                return item.homeType === this.state.homeType
             })
         }
 
         //More - checkboxes
         //Elavator
-        if(this.state.elevator != false) {
+        if(this.state.elevator !== false) {
             newData = newData.filter((item) => {
                 return item.more.includes('elevator');
             })
@@ -95,7 +95,7 @@ class RealEstate extends Component {
         }
 
         //Swimming Pool
-        if(this.state.swimming_pool != false) {
+        if(this.state.swimming_pool !== false) {
             newData = newData.filter((item) => {
                 return item.more.includes('swimming pool');
             })
@@ -104,7 +104,7 @@ class RealEstate extends Component {
         }
 
         //Finished Basement
-        if(this.state.finished_basement != false) {
+        if(this.state.finished_basement !== false) {
             newData = newData.filter((item) => {
                 return item.more.includes('finished basement');
             })
@@ -113,7 +113,7 @@ class RealEstate extends Component {
         }
 
         //Gym
-        if(this.state.gym != false) {
+        if(this.state.gym !== false) {
             newData = newData.filter((item) => {
                 return item.more.includes('gym');
             })
@@ -122,7 +122,7 @@ class RealEstate extends Component {
         }
 
         //Fireplace
-        if(this.state.fireplace != false) {
+        if(this.state.fireplace !== false) {
             newData = newData.filter((item) => {
                 return item.more.includes('fireplace');
             })
@@ -131,19 +131,19 @@ class RealEstate extends Component {
         }
         //End More - checkboxes 
 
-        if(this.state.sortby == 'price-dsc') {
+        if(this.state.sortby === 'price-dsc') {
             newData = newData.sort((a, b) => {
                 return a.price - b.price
             })
         }
 
-        if(this.state.sortby == 'price-asc') {
+        if(this.state.sortby === 'price-asc') {
             newData = newData.sort((a, b) => {
                 return b.price - a.price
             })
         }
 
-        if(this.state.search != ''){
+        if(this.state.search !== ''){
             newData = newData.filter((item) => {
                 var city = item.city.toLowerCase()
                 var searchText = this.state.search.toLowerCase()

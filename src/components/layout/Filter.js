@@ -18,7 +18,7 @@ export default class Filter extends Component {
     }
 
     cities() {
-        if(this.props.globalState.populateFormsData.cities != undefined) {
+        if(this.props.globalState.populateFormsData.cities !== undefined) {
 
             var { cities } = this.props.globalState.populateFormsData 
 
@@ -32,7 +32,7 @@ export default class Filter extends Component {
     } 
 
     homeTypes() {
-        if(this.props.globalState.populateFormsData.homeTypes != undefined) {
+        if(this.props.globalState.populateFormsData.homeTypes !== undefined) {
 
             var { homeTypes } = this.props.globalState.populateFormsData 
 
@@ -46,7 +46,7 @@ export default class Filter extends Component {
     }
 
     bedrooms() {
-        if(this.props.globalState.populateFormsData.bedrooms != undefined) {
+        if(this.props.globalState.populateFormsData.bedrooms !== undefined) {
 
             var { bedrooms } = this.props.globalState.populateFormsData 
 
