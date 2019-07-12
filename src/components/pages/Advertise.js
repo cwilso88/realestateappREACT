@@ -12,9 +12,21 @@ const Advertise = () => {
                 <h1>Sell Your Home Quickly</h1>
                 <br></br>
                    <main>
-                        Atlanta Real Estate also offers homeowners a bevy of useful tools and resources through the My Home℠ dashboard. My Home℠ dashboard allows property 
-                        owners to manage their home like the important investment it is by tracking their home’s value over time, researching and managing home improvements, 
-                        and scouting other similar properties in the neighborhood.
+                        <p>
+                                Good marketing can bring higher prices in a seller's 
+                            market and it can mean the difference between "sold" 
+                            or "expired" in a buyer's market. Good marketing might 
+                            not sell your house but it will make the phone ring and 
+                            if buyers don't call, you won't sell.
+                        </p>
+                        <br/>
+                        <p>
+                                    A good virtual tour will grab a buyer by the hand and 
+                            lead her from room to room, whether it's 360 or a video. 
+                            Depending on the tour company, you can add sound, music, 
+                            or an exciting, professionally written description that 
+                            scrolls with the movement of the tour.
+                        </p>
                    </main>
             </article>
         </section>
