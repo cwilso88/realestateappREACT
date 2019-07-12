@@ -4,8 +4,9 @@
     text-align: center;
 
     .pages-background-image {
-        background-image: url(https://img.freepik.com/free-vector/white-canvas-background_1053-239.jpg?size=338&ext=jpg);
         padding: 4em 0;
+        position: relative;
+        //background-image: url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/651334/600/400/m2/fpnw/wm0/atlanta03small-.jpg?1441996098&s=583b356665fedb0f12a8701b9c7df4fe');
     }
     h1 {
         font-size: 25px;
@@ -20,7 +21,9 @@
     }
 
     article {
-        
+        position: absolute;
+        margin-top: 2em;
+
         h2 {
             font-size: 20px;
             color: $darkpurple;
@@ -31,7 +34,7 @@
 
         main {
             text-align: left;
-            padding: 20px 40px;
+            padding: 0 40px;
             line-height: 1.5;
         }
     }
