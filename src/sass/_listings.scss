@@ -2,19 +2,20 @@ header {
     background: #0C002B;
     color: white;
     overflow: auto;
-    padding: 20px 15px;
+    padding: 20px 35px;
 
     .logo {
         float: left;
         padding-left: 10px;
         img {
-            width: 120px;
-            height: 120px;
+            max-width: 100px;
+            max-height: 100px;
         }
     }
 
     nav{
         float: right;
+        padding-right: 20px;
         a{
             color: white;
             text-decoration: none;

@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 
 class Login extends Component {
     render() {
+        const imgLink = "";
         return (
                 <div class="ui middle aligned center aligned grid">
                     <div class="column">
                         <h2 class="ui teal image header">
-                        <img src="assets/images/logo.png" alt="house" class="image" />
+                        <img src="{}" alt="house" class="image" />
                         <div class="content">
                             Log-in to your account
                         </div>

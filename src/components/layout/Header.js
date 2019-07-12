@@ -9,10 +9,11 @@ class Header extends Component {
         }
     }
     render () {
+        const imgLink = "https://cdn3.iconfinder.com/data/icons/gradient-circle/36/2055-512.png";
         return (
             <header>
                 <div className="logo">
-                    <img src="/img/headerimg.jpg" alt="LuxuryHomes"/>
+                   <img src={imgLink} alt=""/> 
                 </div>
                     <nav>
                         <Link to="/advertise" >Advertise</Link>
