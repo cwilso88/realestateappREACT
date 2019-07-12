@@ -1,0 +1,33 @@
+@import "variables";
+
+#aboutUs {
+    text-align: center;
+    margin-top: 3em;
+    h1 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    img {
+        border-radius: 8px; 
+        max-width: 100%;
+        height: auto;
+    }
+
+    article {
+        margin-top: 10%;
+        h2 {
+            font-size: 20px;
+            color: $darkpurple;
+            text-transform: uppercase;
+            border-top: 1px solid $darkpurple;
+            border-bottom: 1px solid $darkpurple;
+        }
+
+        main {
+            text-align: left;
+            padding: 20px 40px;
+            line-height: 1.5;
+        }
+    }
+}

@@ -13,7 +13,7 @@ const AboutUs = () => {
                 <h2>About Atlanta RealEstate.com®</h2>
                 <br></br>
                    <main>
-                        For years, millions of home shoppers have turned to us to find their dream home. We offer a 
+                            For years, millions of home shoppers have turned to us to find their dream home. We offer a 
                         comprehensive list of for-sale properties, as well as the information and tools to make informed real estate decisions. Today, more than ever, 
                         Atlanta Real Estate is The Home of Home Search℠.
 
