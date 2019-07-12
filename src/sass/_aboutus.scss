@@ -2,20 +2,25 @@
 
 #aboutUs {
     text-align: center;
-    margin-top: 3em;
+
+    .pages-background-image {
+        background-image: url(https://img.freepik.com/free-vector/white-canvas-background_1053-239.jpg?size=338&ext=jpg);
+        padding: 4em 0;
+    }
     h1 {
         font-size: 25px;
         padding-bottom: 20px;
     }
 
     img {
-        border-radius: 8px; 
-        max-width: 100%;
-        height: auto;
+            border-radius: 8px; 
+            max-width: 100%;
+            height: auto;
+        
     }
 
     article {
-        margin-top: 10%;
+        
         h2 {
             font-size: 20px;
             color: $darkpurple;
