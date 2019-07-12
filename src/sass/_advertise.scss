@@ -4,19 +4,15 @@
     text-align: center;
 
     .pages-background-image {
-        padding: 4em 0;
+        padding: 1em 0;
         position: relative;
         //background-image: url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/651334/600/400/m2/fpnw/wm0/atlanta03small-.jpg?1441996098&s=583b356665fedb0f12a8701b9c7df4fe');
-    }
-    h1 {
-        font-size: 25px;
-        padding-bottom: 20px;
     }
 
     img {
             border-radius: 8px; 
-            max-width: 80%;
-            height: auto;
+            max-width: 90%;
+            max-height: 400px;
         
     }
 
@@ -24,8 +20,9 @@
         position: absolute;
         margin-top: 2em;
 
-        h2 {
+        h1 {
             font-size: 20px;
+            background-color: $lightgrey;
             color: $darkpurple;
             text-transform: uppercase;
             border-top: 1px solid $darkpurple;

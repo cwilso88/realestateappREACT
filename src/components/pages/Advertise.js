@@ -6,12 +6,10 @@ const Advertise = () => {
     return (
         <section className="section-container" id="advertise">
             <div className="pages-background-image">
-                <h1>Sell Your Home Quickly</h1>
-
                 <img src={imgLink} alt="Buy a home in Atlanta"/>
             </div>
             <article>
-                <h2>About Atlanta RealEstate.com®</h2>
+                <h1>Sell Your Home Quickly</h1>
                 <br></br>
                    <main>
                         Atlanta Real Estate also offers homeowners a bevy of useful tools and resources through the My Home℠ dashboard. My Home℠ dashboard allows property 
