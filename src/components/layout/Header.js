@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import { BrowserRouter, Link } from 'react-router-dom';
 
-import RealEstate from '..realEstate/RealEstate';
-
 
 export default class Header extends Component {
     constructor() {
