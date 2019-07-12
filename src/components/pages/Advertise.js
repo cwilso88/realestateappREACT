@@ -1,16 +1,17 @@
 import React from 'react';
 
 const Advertise = () => {
-    const imgLink = "https://www.lemoptix.com/wp-content/uploads/ngg_featured/Are-You-Suitable-for-a-Career-in-Real-Estate-Picture-1200x480.jpg";
+    const imgLink = "https://success.realtor.com/cp/uploads/default/files/0a88cf9ec87170b3a0b194806314c96d.gif";
     
     return (
         <section className="section-container" id="advertise">
             <div className="pages-background-image">
                 <img src={imgLink} alt="Buy a home in Atlanta"/>
+
+                <h1>Real Estate Marketing</h1>
             </div>
+            
             <article>
-                <h1>Sell Your Home Quickly</h1>
-                <br></br>
                    <main>
                         <p>
                                 Good marketing can bring higher prices in a seller's 
@@ -28,6 +29,9 @@ const Advertise = () => {
                             scrolls with the movement of the tour.
                         </p>
                    </main>
+                   <h4>Please contact our marketing experts.
+                   <i className="mobile alternate icon"></i>
+                   </h4> 
             </article>
         </section>
     )

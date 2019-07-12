@@ -4,15 +4,16 @@
     text-align: center;
 
     .pages-background-image {
-        padding: 1em 0;
         position: relative;
-        //background-image: url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/651334/600/400/m2/fpnw/wm0/atlanta03small-.jpg?1441996098&s=583b356665fedb0f12a8701b9c7df4fe');
+        h1 {
+            font-size: 50px;
+
+        }
     }
 
     img {
-            border-radius: 8px; 
-            max-width: 90%;
-            max-height: 400px;
+        max-width: 100%;
+        max-height: 500px;
         
     }
 
@@ -20,20 +21,23 @@
         position: absolute;
         margin-top: 2em;
 
-        h1 {
+        main {
             font-size: 20px;
-            background-color: $lightgrey;
             color: $darkpurple;
-            text-transform: uppercase;
             border-top: 1px solid $darkpurple;
             border-bottom: 1px solid $darkpurple;
-            padding: 30px 0;
+            text-align: left;
+            padding: 60px 40px;
+            line-height: 1.5;
         }
 
-        main {
-            text-align: left;
-            padding: 0 40px;
-            line-height: 1.5;
+        h4 {
+            padding: 30px 0;
+            background-color: $lightgrey;
+            i {
+                font-size: 25px;
+                color: $darkpurple;
+            }
         }
     }
 }
