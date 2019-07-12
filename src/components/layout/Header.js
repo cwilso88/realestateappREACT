@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { BrowserRouter, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
     constructor() {
@@ -12,7 +12,7 @@ class Header extends Component {
         return (
             <header>
                 <div className="logo">
-                    <img src="../../img/luxlogo.png" alt="luxuryhomes"/>
+                    <img src="/img/headerimg.jpg" alt="LuxuryHomes"/>
                 </div>
                     <nav>
                         <Link to="/advertise" >Advertise</Link>
