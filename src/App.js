@@ -21,8 +21,7 @@ class App extends Component {
                                 <Route exact path="/contact" component={Contact}></Route>
                                 <Route exact path="/about" component={AboutUs}></Route>
                                 <Route exact path="/advertise" component={Advertise}></Route>
-                                <Route exact path="/listing/:id" render={(props) => <ViewListing {...props} globalState={this.state} listingsData={this.state.listing} />}
-                                ></Route>
+                                <Route exact path="/listing/:id" render={(props) => <ViewListing {...props} globalState={this.state} listingsData={this.props.listingsData} />}></Route>
                     </div>
                 </BrowserRouter>
             </div>

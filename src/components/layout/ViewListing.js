@@ -1,17 +1,19 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import listingsData from '../../data/listingsData';
 
 class ViewListing extends Component {
-    componentDidMount() {
-        //const id = {props.match.params};
+    state = {
+        listingsData
     }
+    
     render() {
-        const { listingsData } = this.props;
-
-        console.log(listingData);
+        var listingsData = this.state.listingsData;
+        console.log(listingsData);
+        
         return (
             <div>
                 ViewListing
-                {listing.id}
+                
             </div>
         )
     }
