@@ -21,7 +21,7 @@ class Header extends Component {
                         <Link to="/advertise" >Advertise</Link>
                         <Link to="/about" >About Us</Link>
                         <Link to="/contact" >Contact</Link>
-                        <Link to="/login" className="register-btn">Log in with Google</Link>
+                        <Link to="/login" className="register-btn"><i className="icon google"></i>Google Login</Link>
                     </nav>
             </header>
         )
