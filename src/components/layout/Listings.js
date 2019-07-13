@@ -1,4 +1,5 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -49,7 +50,7 @@ export default class Listings extends Component {
                                 </div>
                             
                             <div className="view-btn">
-                                View Listing
+                                <Link to={`/listing/${listing.id}`}>View Listing</Link>
                             </div>
                         </div>
                         
@@ -95,7 +96,7 @@ export default class Listings extends Component {
                                 </div>
                             
                             <div className="view-btn">
-                                View Listing
+                                <Link to={`/listing/${listing.id}`}>View Listing</Link>
                             </div>
                         </div>
                         

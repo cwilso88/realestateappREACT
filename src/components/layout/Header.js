@@ -18,6 +18,7 @@ class Header extends Component {
                    <h5>LUXURY HOMES</h5>
                 </div>
                     <nav>
+                        <Link to="/">Buy</Link>
                         <Link to="/advertise" >Advertise</Link>
                         <Link to="/about" >About Us</Link>
                         <Link to="/contact" >Contact</Link>
