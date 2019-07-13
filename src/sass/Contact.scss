@@ -1,6 +1,18 @@
 @import "variables";
 #contact {
-    label {
-        color: $darkpurple;
+    form {
+        margin: 10% 10% 20% 10%;
+
+        h3 {
+            color: $darkgrey;
+        }
+        label {
+            color: $darkpurple;
+        }
+    
+        input::placeholder { 
+            color: $darkgrey;
+        }
+    
     }
 }
