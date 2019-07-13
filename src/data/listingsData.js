@@ -1,5 +1,6 @@
 var listingsData = [
     {
+        id: '1',
         address: '5 Peachtree St', 
         city: 'Atlanta',
         state: 'GA',
@@ -14,6 +15,7 @@ var listingsData = [
     },
 
     {
+        id: '2',
         address: '7413 Piedmont Ave', 
         city: 'Duluth',
         state: 'GA',
@@ -28,6 +30,7 @@ var listingsData = [
     },
 
     {
+        id: '3',
         address: '9008 Moreland Ave', 
         city: 'Sandy Springs',
         state: 'GA',
@@ -42,6 +45,7 @@ var listingsData = [
     },
 
     {
+        id: '4',
         address: '235 Roswell Road', 
         city: 'Sandy Springs',
         state: 'GA',
@@ -56,6 +60,7 @@ var listingsData = [
     },
 
     {
+        id: '5',
         address: '5842 W Wesley Road', 
         city: 'Roswell',
         state: 'GA',
@@ -70,6 +75,7 @@ var listingsData = [
     },
 
     {
+        id: '6',
         address: '100 Druid Hills Road', 
         city: 'Atlanta',
         state: 'GA',
@@ -84,6 +90,7 @@ var listingsData = [
     },
 
     {
+        id: '7',
         address: '2000 Peachtree Road', 
         city: 'Roswell',
         state: 'GA',
@@ -98,6 +105,7 @@ var listingsData = [
     },
 
     {
+        id: '8',
         address: '2905 Peachtree Battle Road', 
         city: 'Duluth',
         state: 'GA',
