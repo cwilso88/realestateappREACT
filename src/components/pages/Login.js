@@ -4,7 +4,7 @@ class Login extends Component {
     render() {
         return (
                 <div className="ui middle aligned center aligned grid content-area" style={{ backgroundColor: "#dadde2"}}>
-                    <div className="column" style={{ padding: "15% 30%" }}>
+                    <div className="column" style={{ padding: "10% 30% 20% 30%" }}>
                         <h2 className="ui teal image header">
                             <i className="home icon" style={{ color: "#FF718E" }}/>
                         <div className="content" style={{ color: "#0C002B" }}>
