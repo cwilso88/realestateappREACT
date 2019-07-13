@@ -7,7 +7,7 @@ class Login extends Component {
             <div className="ui middle aligned center aligned grid content-area" id="contact" style={{ backgroundColor: "#dadde2" }}>
                 <div className="ui container">			
 			        <form className="ui form pad-top-30 pad-bottom-30">
-			            <h3 className="huge header inverted">Contact Us</h3>
+			            <h3 className="huge header inverted">Contact Customer Support</h3>
                         <div className="two fields">
                             <div className="field">
                                 <label>First Name</label>
