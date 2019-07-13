@@ -3,37 +3,44 @@ import React, { Component } from 'react';
 class Login extends Component {
     render() {
         return (
-                <div className="ui middle aligned center aligned grid content-area" style={{ backgroundColor: "#dadde2"}}>
-                    <div className="column" style={{ padding: "10% 30% 20% 30%" }}>
-                        <h2 className="ui teal image header">
-                            <i className="home icon" style={{ color: "#FF718E" }}/>
-                        <div className="content" style={{ color: "#0C002B" }}>
-                            Log-in to your account
-                        </div>
-                        </h2>
-                        <form className="ui large form">
-                        <div className="ui stacked segment">
+            <div className="ui middle aligned center aligned grid content-area" style={{ backgroundColor: "#dadde2"}}>
+                <div className="ui container margin-top-30">			
+			        <form className="ui form pad-top-30 pad-bottom-30">
+			            <h3 className="huge header inverted">Contact Us</h3>
+                        <div className="two fields">
                             <div className="field">
-                            <div className="ui left icon input">
-                                <i className="user icon"></i>
-                                <input type="text" name="email" placeholder="E-mail address" />
-                            </div>
+                                <label>First Name</label>
+                                <input type="text" name="first-name" placeholder="First Name" />
                             </div>
                             <div className="field">
-                            <div className="ui left icon input">
-                                <i className="lock icon"></i>
-                                <input type="password" name="password" placeholder="Password" />
+                                <label>Last Name</label>
+                                <input type="text" name="last-name" placeholder="Last Name" />
                             </div>
+				        </div>
+                        <div className="field">
+                            <label>Leave your message here:</label>
+                            <textarea></textarea>
+                        </div>
+                        <div class="field">
+                            <label>Message Type:</label>
+                            <div className="ui selection dropdown">
+                                <input type="hidden" name="message-type" />
+                                <i className="dropdown icon"></i>
+                                <div className="default text">Message Type</div>
+                                <div className="menu">
+                                    <div className="item" data-value="1">Complaint</div>
+                                    <div className="item" data-value="0">Query</div>
+                                </div>
                             </div>
-                            <div className="ui fluid large teal submit button" style={{backgroundColor: "#0C002B"}}>Login</div>
                         </div>
-                        <div className="ui error message"></div>
-                        </form>
-                        <div className="ui message">
-                        New to us? <a href="#">Sign Up</a>
+                        <div className="field">
+                            <label>Email</label>
+                            <input type="email" placeholder="Email" />
                         </div>
-                    </div>
-                </div>
+			        <div className="ui submit button">Submit</div>
+			    </form>
+		    </div>
+        </div>
         )
     }
 }
