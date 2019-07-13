@@ -5,12 +5,13 @@ class ViewListing extends Component {
         //const id = {props.match.params};
     }
     render() {
-        const { listing } = this.props;
+        const { listingsData } = this.props;
 
-        console.log(listing);
+        console.log(listingData);
         return (
             <div>
                 ViewListing
+                {listing.id}
             </div>
         )
     }
