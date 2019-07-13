@@ -4,7 +4,7 @@ const Advertise = () => {
     const imgLink = "https://success.realtor.com/cp/uploads/default/files/0a88cf9ec87170b3a0b194806314c96d.gif";
     
     return (
-        <section id="advertise">
+        <section className="content-area" id="advertise">
             <div className="pages-background-image">
                 <img src={imgLink} alt="Buy a home in Atlanta"/>
 

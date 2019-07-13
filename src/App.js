@@ -16,14 +16,12 @@ class App extends Component {
                 <BrowserRouter>
                     <div>
                         <Header />
-                            <section id="content-area">
                                 <Route exact path="/" component={RealEstate}></Route>
                                 <Route exact path="/login" component={Login}></Route>
                                 <Route exact path="/about" component={AboutUs}></Route>
                                 <Route exact path="/advertise" component={Advertise}></Route>
                                 <Route exact path="/register" component={Register}></Route>
-                            </section>
-                            
+                         
                     </div>
                 </BrowserRouter>
             </div>
