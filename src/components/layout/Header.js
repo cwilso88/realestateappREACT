@@ -20,8 +20,8 @@ class Header extends Component {
                     <nav>
                         <Link to="/advertise" >Advertise</Link>
                         <Link to="/about" >About Us</Link>
-                        <Link to="/login" >Log In</Link>
-                        <Link to="/register" className="register-btn">Register</Link>
+                        <Link to="/contact" >Contact</Link>
+                        <Link to="/login" className="register-btn">Log in with Google</Link>
                     </nav>
             </header>
         )

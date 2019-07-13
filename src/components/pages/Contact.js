@@ -3,12 +3,11 @@ import React, { Component } from 'react';
 class Login extends Component {
     
     render() {
-        const headerColor = "color: #0C002B";
         return (
-            <div className="ui middle aligned center aligned grid content-area" style={{ backgroundColor: "#dadde2"}}>
+            <div className="ui middle aligned center aligned grid content-area" id="contact" style={{ backgroundColor: "#dadde2" }}>
                 <div className="ui container">			
-			        <form className="ui form pad-top-30 pad-bottom-30" style={{ margin: "10%"}}>
-			            <h3 className="huge header inverted">Contact Us</h3>
+			        <form className="ui form pad-top-30 pad-bottom-30" style={{ margin: "10%" }}>
+			            <h3 className="huge header inverted" style={{ color: "#828d9d"}}>Contact Us</h3>
                         <div className="two fields">
                             <div className="field">
                                 <label>First Name</label>
