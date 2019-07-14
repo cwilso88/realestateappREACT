@@ -16,7 +16,7 @@ const ViewListing = (props) => {
                         Click to expand photo
                     </button>
                 </div>
-
+                <div className="segments-container" style={{ margin: "50px" }}>
                 <div className="ui segments">
                     <div className="ui horizontal segments">
                         <div className="ui segment">
@@ -38,7 +38,17 @@ const ViewListing = (props) => {
                     <h3><i className="square outline icon"></i>Square Feet :</h3>
                     </div>
                 </div>
-            </div>   
+            </div>
+            <hr/>
+            <div className="ui segments">
+                <div className="ui segment">
+                    <p>Top</p>
+                </div>
+                <div className="ui secondary segment">
+                    <p>Secondary Content</p>
+                </div>
+                </div>  
+            </div>
         </div>
     )
 }
