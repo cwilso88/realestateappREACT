@@ -8,18 +8,20 @@ const ViewListing = (props) => {
         console.log(currentListing);
 
         return ( 
-            <div id="content-area viewListing">
-                
+            <div id="content-area viewListing"> 
                 <div className="ui padded segment">
-                    <div className="ui animated violet basic button" tabIndex="0" style={{ margin: "5px 0px 20px 5px" }}>
-                        <div className="visible content">Back</div>
+                    <div className="ui animated button" tabIndex="0" style={{ margin: "5px 0px 20px 5px", backgroundColor: "#FFFEFF" }}>
+                        <div className="visible content" style={{ color: "#FF718E" }}>Back</div>
                             <div className="hidden content">
-                                <i className="left arrow icon"></i>
+                                <i className="left arrow icon" style={{ color: "#FF718E" }}></i>
                         </div>
                     </div>
-                    <div className="image-container">
-                        <img className="ui fluid image" alt="house" src="https://i.kinja-img.com/gawker-media/image/upload/s--bIV3xkEm--/c_scale,f_auto,fl_progressive,q_80,w_800/jsprifdd1gmfy7e7nola.jpg"></img>
+
+
+                    <div class="ui segment">
+                        <img class="ui centered image" src="https://i.kinja-img.com/gawker-media/image/upload/s--bIV3xkEm--/c_scale,f_auto,fl_progressive,q_80,w_800/jsprifdd1gmfy7e7nola.jpg" alt="house" />
                     </div>
+
                     
                     
                     <div className="ui labeled button" tabIndex="0">
@@ -87,8 +89,8 @@ const ViewListing = (props) => {
                 </div>  
             </div>
             <div className="contact-agent" style={{ margin: "50px" }}>
-                <div className="ui animated fade button" tabIndex="0" style={{ left: "40%", padding: "20px 60px 20px 60px", textAlign: "center" }}>
-                <div className="visible content" style={{ padding: "20px 60px 20px 60px", textAlign: "center" }}>Love this home?</div>
+                <div className="ui animated fade button" tabIndex="0" style={{ left: "30%", padding: "20px 60px 20px 60px", textAlign: "center", color: "#FF718E", backgroundColor: "#FFFEFF" }}>
+                <div className="visible content" style={{ padding: "20px 60px 20px 40px", textAlign: "center" }}>Love this home?</div>
                 <div className="hidden content">
                 <i className="envelope outline icon"></i> Email Agent
                 </div>
