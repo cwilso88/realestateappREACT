@@ -5,9 +5,15 @@ import listingsData from '../../data/listingsData';
 class ViewListing extends Component { 
     constructor( props ){
         super();
-        this.state = { ...props };
+        this.state = { ...props, listingsData };
       }
+
+      
         render () {
+            const { listingsData } = this.state;
+            console.log(listingsData);
+            console.log(this.props.match.params.id);
+            
             return ( 
                 <div id="content-area viewListing"> 
                     <div className="ui padded segment">
@@ -22,8 +28,8 @@ class ViewListing extends Component {
                         
     
     
-                        <div class="ui segment">
-                            <img class="ui centered image" src="https://i.kinja-img.com/gawker-media/image/upload/s--bIV3xkEm--/c_scale,f_auto,fl_progressive,q_80,w_800/jsprifdd1gmfy7e7nola.jpg" alt="house" />
+                        <div className="ui segment">
+                            <img className="ui centered image" src="https://i.kinja-img.com/gawker-media/image/upload/s--bIV3xkEm--/c_scale,f_auto,fl_progressive,q_80,w_800/jsprifdd1gmfy7e7nola.jpg" alt="house" />
                         </div>
     
                         
@@ -36,7 +42,7 @@ class ViewListing extends Component {
                                     2,048
                                 </a>
                                 </div>
-                                <div className="ui left labeled button" tabindex="0">
+                                <div className="ui left labeled button" tabIndex="0">
                                 <a className="ui basic right pointing label">
                                     2,048
                                 </a>
@@ -44,7 +50,7 @@ class ViewListing extends Component {
                                     <i className="heart icon"></i> Views
                                 </div>
                                 </div>
-                                <div className="ui left labeled button" tabindex="0">
+                                <div className="ui left labeled button" tabIndex="0">
                                 <a className="ui basic label">
                                     1,048
                                 </a>
@@ -62,7 +68,7 @@ class ViewListing extends Component {
                                 <h3><i className="ui icon dollar sign"></i> Price</h3>
                             </div>
                             <div className="ui segment">
-                                <h3><i class="calculator icon"></i>Est.Payment</h3>
+                                <h3><i className="calculator icon"></i>Est.Payment</h3>
                             </div>
                         </div>
                         <div className="ui segment">
