@@ -93,14 +93,14 @@ class ViewListing extends Component {
                     </div>  
                 </div>
                 <div className="contact-agent" style={{ margin: "50px" }}>
-                    <Link to="/contact-agent">
+                    <a target="blank" href="https://www.homelight.com/atlanta-ga/top-real-estate-agents">
                     <div className="ui animated fade button" tabIndex="0" style={{ left: "30%", padding: "20px 60px 20px 60px", textAlign: "center", color: "#FF718E", backgroundColor: "#FFFEFF" }}>
                         <div className="visible content" style={{ padding: "20px 60px 20px 40px", textAlign: "center" }}>Love this home?</div>
                         <div className="hidden content">
                         <i className="envelope outline icon"></i> Email Agent
                         </div>
                     </div>
-                    </Link>
+                    </a>
                 </div>
             </div>
         )

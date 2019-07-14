@@ -6,7 +6,6 @@ import AboutUs from './components/pages/AboutUs';
 import Contact from './components/pages/Contact';
 import Advertise from './components/pages/Advertise';
 import ViewListing from './components/layout/ViewListing';
-import Redirect from './components/pages/Redirect';
 
 
 import './sass/main.scss';
@@ -23,11 +22,6 @@ class App extends Component {
                                 <Route exact path="/about" component={AboutUs}></Route>
                                 <Route exact path="/advertise" component={Advertise}></Route>
                                 <Route exact path="/listing/:id" render={(props) => <ViewListing {...props} globalState={this.state} listingsData={this.props.listingsData} />}></Route>
-                                
-                                <Route
-                                exact path="/contact-agent"
-                                component={Redirect}
-                                />
                     </div>
                 </BrowserRouter>
             </div>
