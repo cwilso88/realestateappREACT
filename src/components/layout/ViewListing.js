@@ -9,11 +9,20 @@ const ViewListing = (props) => {
 
         return ( 
             <div id="content-area viewListing">
-
+                
                 <div className="ui padded segment">
-                    <img className="ui fluid image" alt="house" src="https://i.kinja-img.com/gawker-media/image/upload/s--bIV3xkEm--/c_scale,f_auto,fl_progressive,q_80,w_800/jsprifdd1gmfy7e7nola.jpg"></img>
+                    <div className="ui animated violet basic button" tabIndex="0" style={{ margin: "5px 0px 20px 5px" }}>
+                        <div className="visible content">Back</div>
+                            <div className="hidden content">
+                                <i className="left arrow icon"></i>
+                        </div>
+                    </div>
+                    <div className="image-container">
+                        <img className="ui fluid image" alt="house" src="https://i.kinja-img.com/gawker-media/image/upload/s--bIV3xkEm--/c_scale,f_auto,fl_progressive,q_80,w_800/jsprifdd1gmfy7e7nola.jpg"></img>
+                    </div>
                     
-                    <div className="ui labeled button" tabindex="0">
+                    
+                    <div className="ui labeled button" tabIndex="0">
                             <div className="ui button">
                                 <i className="heart icon"></i> Like
                             </div>
@@ -78,12 +87,6 @@ const ViewListing = (props) => {
                 </div>  
             </div>
             <div className="contact-agent">
-            <div class="ui animated button" tabindex="0">
-                <div class="visible content">Next</div>
-                <div class="hidden content">
-                    <i class="right arrow icon"></i>
-                </div>
-                </div>
                 <div class="ui vertical animated button" tabindex="0">
                 <div class="hidden content">Shop</div>
                 <div class="visible content">
