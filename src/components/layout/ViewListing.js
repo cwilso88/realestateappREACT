@@ -9,13 +9,41 @@ const ViewListing = (props) => {
 
         return ( 
             <div id="content-area viewListing">
+
                 <div className="ui padded segment">
                     <img className="ui fluid image" alt="house" src="https://i.kinja-img.com/gawker-media/image/upload/s--bIV3xkEm--/c_scale,f_auto,fl_progressive,q_80,w_800/jsprifdd1gmfy7e7nola.jpg"></img>
                     <button className="ui button">
                         <i className="icon camera"></i>
                         Click to expand photo
                     </button>
+                    
+                    <div className="ui labeled button" tabindex="0">
+                            <div className="ui button">
+                                <i className="heart icon"></i> Like
+                            </div>
+                            <a className="ui basic label">
+                                2,048
+                            </a>
+                            </div>
+                            <div className="ui left labeled button" tabindex="0">
+                            <a className="ui basic right pointing label">
+                                2,048
+                            </a>
+                            <div className="ui button">
+                                <i className="heart icon"></i> Like
+                            </div>
+                            </div>
+                            <div className="ui left labeled button" tabindex="0">
+                            <a className="ui basic label">
+                                1,048
+                            </a>
+                        <div className="ui icon button">
+                            <i className="fork icon"></i>
+                        </div>
+                    </div>
                 </div>
+
+
                 <div className="segments-container" style={{ margin: "50px" }}>
                 <div className="ui segments">
                     <div className="ui horizontal segments">
@@ -52,6 +80,26 @@ const ViewListing = (props) => {
                     </ul>
                 </div>
                 </div>  
+            </div>
+            <div className="contact-agent">
+            <div class="ui animated button" tabindex="0">
+                <div class="visible content">Next</div>
+                <div class="hidden content">
+                    <i class="right arrow icon"></i>
+                </div>
+                </div>
+                <div class="ui vertical animated button" tabindex="0">
+                <div class="hidden content">Shop</div>
+                <div class="visible content">
+                    <i class="shop icon"></i>
+                </div>
+                </div>
+                <div class="ui animated fade button" tabindex="0">
+                <div class="visible content">Sign-up for a Pro account</div>
+                <div class="hidden content">
+                    $12.99 a month
+                </div>
+                </div>
             </div>
         </div>
     )
