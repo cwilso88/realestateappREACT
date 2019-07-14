@@ -86,9 +86,9 @@ const ViewListing = (props) => {
                 </div>
                 </div>  
             </div>
-            <div className="contact-agent" style={{ margin: "20px 50px" }}>
-                <div className="ui animated fade button" tabIndex="0">
-                <div className="visible content">Love this home?</div>
+            <div className="contact-agent" style={{ margin: "50px" }}>
+                <div className="ui animated fade button" tabIndex="0" style={{ left: "40%", padding: "20px 60px 20px 60px", textAlign: "center" }}>
+                <div className="visible content" style={{ padding: "20px 60px 20px 60px", textAlign: "center" }}>Love this home?</div>
                 <div className="hidden content">
                 <i className="envelope outline icon"></i> Email Agent
                 </div>
