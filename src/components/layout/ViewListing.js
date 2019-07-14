@@ -12,10 +12,6 @@ const ViewListing = (props) => {
 
                 <div className="ui padded segment">
                     <img className="ui fluid image" alt="house" src="https://i.kinja-img.com/gawker-media/image/upload/s--bIV3xkEm--/c_scale,f_auto,fl_progressive,q_80,w_800/jsprifdd1gmfy7e7nola.jpg"></img>
-                    <button className="ui button">
-                        <i className="icon camera"></i>
-                        Click to expand photo
-                    </button>
                     
                     <div className="ui labeled button" tabindex="0">
                             <div className="ui button">
@@ -30,7 +26,7 @@ const ViewListing = (props) => {
                                 2,048
                             </a>
                             <div className="ui button">
-                                <i className="heart icon"></i> Like
+                                <i className="heart icon"></i> Views
                             </div>
                             </div>
                             <div className="ui left labeled button" tabindex="0">
