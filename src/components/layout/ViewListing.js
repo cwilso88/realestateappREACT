@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import listingsData from '../../data/listingsData';
 
 class ViewListing extends Component { 
@@ -6,12 +7,15 @@ class ViewListing extends Component {
             return ( 
                 <div id="content-area viewListing"> 
                     <div className="ui padded segment">
-                        <div className="ui animated button" tabIndex="0" style={{ margin: "5px 0px 20px 5px", backgroundColor: "#FFFEFF" }}>
+                         <Link to="/">
+                         <div className="ui animated button" tabIndex="0" style={{ margin: "5px 0px 20px 5px", backgroundColor: "#FFFEFF" }}>
                             <div className="visible content" style={{ color: "#FF718E" }}>Back</div>
                                 <div className="hidden content">
                                     <i className="left arrow icon" style={{ color: "#FF718E" }}></i>
                             </div>
                         </div>
+                         </Link>
+                        
     
     
                         <div class="ui segment">
