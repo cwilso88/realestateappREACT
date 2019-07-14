@@ -42,10 +42,14 @@ const ViewListing = (props) => {
             <hr/>
             <div className="ui segments">
                 <div className="ui segment">
-                    <p>Top</p>
+                    <header>Property Features</header>
                 </div>
                 <div className="ui secondary segment">
-                    <p>Secondary Content</p>
+                <ul className="ui list">
+                    <li>Elevator</li>
+                    <li>Fireplace</li>
+                    <li>Gym</li>
+                    </ul>
                 </div>
                 </div>  
             </div>
