@@ -11,8 +11,10 @@ class ViewListing extends Component {
       
         render () {
             const { listingsData } = this.state;
+            const index = this.props.match.params.id;
             console.log(listingsData);
             console.log(this.props.match.params.id);
+            console.log(index);
             
             return ( 
                 <div id="content-area viewListing"> 
