@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom'
 import listingsData from '../../data/listingsData';
 
 class ViewListing extends Component { 
+    constructor( props ){
+        super();
+        this.state = { ...props };
+      }
         render () {
             return ( 
                 <div id="content-area viewListing"> 
