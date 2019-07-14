@@ -48,7 +48,7 @@ const ViewListing = (props) => {
                     </div>
                 </div>
 
-
+                <header style={{ textAlign: "center", textTransform: "uppercase" }}>Listing Details</header>
                 <div className="segments-container" style={{ margin: "50px" }}>
                 <div className="ui segments">
                     <div className="ui horizontal segments">
@@ -86,17 +86,11 @@ const ViewListing = (props) => {
                 </div>
                 </div>  
             </div>
-            <div className="contact-agent">
-                <div class="ui vertical animated button" tabindex="0">
-                <div class="hidden content">Shop</div>
-                <div class="visible content">
-                    <i class="shop icon"></i>
-                </div>
-                </div>
-                <div class="ui animated fade button" tabindex="0">
-                <div class="visible content">Sign-up for a Pro account</div>
-                <div class="hidden content">
-                    $12.99 a month
+            <div className="contact-agent" style={{ margin: "20px 50px" }}>
+                <div className="ui animated fade button" tabIndex="0">
+                <div className="visible content">Love this home?</div>
+                <div className="hidden content">
+                <i className="envelope outline icon"></i> Email Agent
                 </div>
                 </div>
             </div>
