@@ -26,21 +26,21 @@ const ViewListing = (props) => {
                         <h3><i class="calculator icon"></i>Est.Payment</h3>
                     </div>
                 </div>
+                <div className="ui segment">
+                    <h1><i className="home icon"></i>Address :</h1>
+                </div>
                 
                 <div className="ui horizontal segments">
                     <div className="ui segment">
-                    <p>Top</p>
+                        <h3><i className="bed icon"></i>Rooms :</h3>
                     </div>
                     <div className="ui segment">
-                    <p>Middle</p>
+                    <h3><i className="square outline icon"></i>Square Feet :</h3>
                     </div>
                     <div className="ui segment">
                     <p>Bottom</p>
                     </div>
-                </div>
-                <div className="ui segment">
-                    <p>Bottom</p>
-                </div>
+                    </div>
                 </div>   
             </div>
         )
