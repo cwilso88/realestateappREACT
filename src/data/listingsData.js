@@ -11,6 +11,7 @@ var listingsData = [
             'gym', 'fireplace'
         ],
         homeType: 'Condo',
+        estPayment: '2200',
         image: 'http://www.petrealtynetwork.com/wp-content/uploads/2017/11/werwerewrwer.jpg'
     },
 
@@ -38,9 +39,10 @@ var listingsData = [
         price: '820000',
         floorSpace: '1200',
         more: [
-            'fireplace', 'finished basement'
+            'fireplace', 'finished basement', 'gym'
         ],
         homeType: 'Bungalow',
+        estPayment: '3200',
         image: 'https://i.pinimg.com/originals/40/92/05/409205fb368715747947816deb3f3c77.jpg'
     },
 
@@ -116,6 +118,7 @@ var listingsData = [
             'elevator', 'finished basement'
         ],
         homeType: 'Condo',
+        estPayment: '2200',
         image: 'https://i.pinimg.com/736x/d0/9a/79/d09a7905192a40d24ee28a45ebc0a180--atlanta-apartments-atlanta-condo.jpg'
     },
 ]

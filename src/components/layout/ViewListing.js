@@ -12,9 +12,10 @@ class ViewListing extends Component {
         render () {
             const { listingsData } = this.state;
             const index = this.props.match.params.id;
+            const listing = listingsData[index];
             console.log(listingsData);
             console.log(this.props.match.params.id);
-            console.log(index);
+            console.log(listing);
             
             return ( 
                 <div id="content-area viewListing"> 
@@ -26,12 +27,12 @@ class ViewListing extends Component {
                                     <i className="left arrow icon" style={{ color: "#FF718E" }}></i>
                             </div>
                         </div>
-                         </Link>
+                        </Link>
                         
     
     
                         <div className="ui segment">
-                            <img className="ui centered image" src="https://i.kinja-img.com/gawker-media/image/upload/s--bIV3xkEm--/c_scale,f_auto,fl_progressive,q_80,w_800/jsprifdd1gmfy7e7nola.jpg" alt="house" />
+                            <img className="ui centered image" src={listing.image} alt="house" />
                         </div>
     
                         
@@ -67,22 +68,22 @@ class ViewListing extends Component {
                     <div className="ui segments">
                         <div className="ui horizontal segments">
                             <div className="ui segment">
-                                <h3><i className="ui icon dollar sign"></i> Price</h3>
+                                <h3><i className="ui icon dollar sign"></i>{listing.price}</h3>
                             </div>
                             <div className="ui segment">
-                                <h3><i className="calculator icon"></i>Est.Payment</h3>
+                                <h3><i className="calculator icon"></i>Est.Payment : {listing.estPayment}</h3>
                             </div>
                         </div>
                         <div className="ui segment">
-                            <h1><i className="home icon"></i>Address :</h1>
+                            <h1><i className="home icon"></i>Address : {listing.address}, {listing.city}</h1>
                         </div>
                     
                     <div className="ui horizontal segments">
                         <div className="ui segment">
-                            <h3><i className="bed icon"></i>Rooms :</h3>
+                            <h3><i className="bed icon"></i>Rooms : {listing.rooms}</h3>
                         </div>
                         <div className="ui segment">
-                        <h3><i className="square outline icon"></i>Square Feet :</h3>
+                        <h3><i className="square outline icon"></i>Square Feet : {listing.floorSpace}</h3>
                         </div>
                     </div>
                 </div>
@@ -93,9 +94,9 @@ class ViewListing extends Component {
                     </div>
                     <div className="ui secondary segment">
                     <ul className="ui list">
-                        <li>Elevator</li>
-                        <li>Fireplace</li>
-                        <li>Gym</li>
+                        <li>{listing.more[0]}</li>
+                        <li>{listing.more[1]}</li>
+                        <li>{listing.more[2]}</li>
                         </ul>
                     </div>
                     </div>  
