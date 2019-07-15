@@ -1,6 +1,6 @@
 var listingsData = [
     {
-        id: '1',
+        id: '0',
         address: '5 Peachtree St', 
         city: 'Atlanta',
         state: 'GA',
@@ -8,7 +8,7 @@ var listingsData = [
         price: '520000',
         floorSpace: '2200',
         more: [
-            'gym', 'fireplace'
+            'gym', 'fireplace', 'elevator'
         ],
         homeType: 'Condo',
         estPayment: '2200',
@@ -16,7 +16,7 @@ var listingsData = [
     },
 
     {
-        id: '2',
+        id: '1',
         address: '7413 Piedmont Ave', 
         city: 'Duluth',
         state: 'GA',
@@ -24,14 +24,15 @@ var listingsData = [
         price: '252000',
         floorSpace: '3200',
         more: [
-            'elevator', 'swimming pool'
+            'elevator', 'swimming pool', 'finished basement'
         ],
         homeType: 'Mansion',
+        estPayment: '3500',
         image: 'https://i.pinimg.com/originals/49/b7/10/49b71020328e0ce6f17cd87cb3ac4f4a.jpg'
     },
 
     {
-        id: '3',
+        id: '2',
         address: '9008 Moreland Ave', 
         city: 'Sandy Springs',
         state: 'GA',
@@ -47,7 +48,7 @@ var listingsData = [
     },
 
     {
-        id: '4',
+        id: '3',
         address: '235 Roswell Road', 
         city: 'Sandy Springs',
         state: 'GA',
@@ -58,11 +59,12 @@ var listingsData = [
             'swimming pool', 'gym', 'fireplace'
         ],
         homeType: 'Ranch',
+        estPayment: '2178',
         image: 'https://1.bp.blogspot.com/-NI8WWnABLSc/UzGQD9c0tGI/AAAAAAAALDE/LY2iBuSBibk/s1600/Stan+Dixon+painted+brick+relaxed+khaki.jpg'
     },
 
     {
-        id: '5',
+        id: '4',
         address: '5842 W Wesley Road', 
         city: 'Roswell',
         state: 'GA',
@@ -73,11 +75,12 @@ var listingsData = [
             'elevator', 'gym', 'swimming pool'
         ],
         homeType: 'Mansion',
+        estPayment: '4009',
         image: 'https://i.pinimg.com/originals/07/66/89/0766890adf04deeed1b3bced820ec279.jpg'
     },
 
     {
-        id: '6',
+        id: '5',
         address: '100 Druid Hills Road', 
         city: 'Atlanta',
         state: 'GA',
@@ -88,11 +91,12 @@ var listingsData = [
             'finished basement', 'gym', 'fireplace'
         ],
         homeType: 'Bungalow',
+        estPayment: '5402',
         image: 'http://luxport.s3.amazonaws.com/8574/50%2BAvery%2BDrive%2BNe%2BAtlanta%2BGA%2BUSA%2B574257_001_S.jpg'
     },
 
     {
-        id: '7',
+        id: '6',
         address: '2000 Peachtree Road', 
         city: 'Roswell',
         state: 'GA',
@@ -100,14 +104,15 @@ var listingsData = [
         price: '520000',
         floorSpace: '2200',
         more: [
-            'swimming pool', 'fireplace'
+            'swimming pool', 'fireplace', 'elevator'
         ],
         homeType: 'Condo',
+        estPayment: '4231',
         image: 'https://www.allatlantacondos.com/wp-content/uploads/2016/05/DSC_0085-690x460.jpg'
     },
 
     {
-        id: '8',
+        id: '7',
         address: '2905 Peachtree Battle Road', 
         city: 'Duluth',
         state: 'GA',
@@ -115,7 +120,7 @@ var listingsData = [
         price: '350000',
         floorSpace: '2200',
         more: [
-            'elevator', 'finished basement'
+            'elevator', 'finished basement', 'gym'
         ],
         homeType: 'Condo',
         estPayment: '2200',
