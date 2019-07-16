@@ -132,8 +132,8 @@ export default class Listings extends Component {
                 </select>
 
             <div className="view">
-                <i className="fas fa-list" onClick={this.props.changeView.bind(null, "long")}></i>
-                <i className="fas fa-th" onClick={this.props.changeView.bind(null, "box")}></i>
+                <i className="list icon" onClick={this.props.changeView.bind(null, "long")}></i>
+                <i className="th icon" onClick={this.props.changeView.bind(null, "box")}></i>
             </div>
             
             </div>
