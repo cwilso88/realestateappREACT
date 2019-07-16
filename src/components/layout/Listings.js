@@ -95,9 +95,10 @@ export default class Listings extends Component {
                                     </div>
                                 </div>
                             
-                            
-                                <Link to={`/listing/${listing.index}`} className="view-btn">View Listing</Link>
-                            
+                                <div className="view-btn-container">
+                                    <Link to={`/listing/${listing.index}`} className="view-btn">View Listing</Link>
+                                </div>
+    
                         </div>
                         
                         </div>
