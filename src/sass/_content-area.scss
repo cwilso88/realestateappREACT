@@ -378,6 +378,17 @@
     }
 }
 
+@media screen and (max-width: 567px) {
+    header {
+        line-height: 2;
+    }
+    a .register-btn {
+        display: block;
+        width: 200px;
+        margin-top: 15px;
+    }
+}
+
 
 
 
