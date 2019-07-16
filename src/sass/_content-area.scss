@@ -367,6 +367,19 @@
     }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1120px) {
+    .listing-details {
+        display: none;
+    }
+
+    .view-btn-container {
+        .view-btn {
+            padding-top: 35px;
+            width: 150px;
+        }
+    }
+}
+
 
 
 
