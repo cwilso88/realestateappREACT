@@ -40,11 +40,11 @@ export default class Listings extends Component {
                                 </div>
                                 <div className="listing-details">
                                     <div className="floor-space">
-                                        <i className="far fa-square"></i>
+                                        <i className="square outline icon"></i>
                                         <span>{listing.floorSpace} ft&sup2;</span>
                                     </div>
                                     <div className="bedrooms">
-                                        <i className="fas fa-bed"></i>
+                                        <i className="bed icon"></i>
                                         <span>{listing.rooms} bedrooms</span>
                                     </div>
                                 </div>
@@ -86,11 +86,11 @@ export default class Listings extends Component {
                                 </div>
                                 <div className="listing-details">
                                     <div className="floor-space">
-                                        <i className="far fa-square"></i>
+                                        <i className="square outline icon"></i>
                                         <span>{listing.floorSpace} ft&sup2;</span>
                                     </div>
                                     <div className="bedrooms">
-                                        <i className="fas fa-bed"></i>
+                                        <i className="bed icon"></i>
                                         <span>{listing.rooms} bedrooms</span>
                                     </div>
                                 </div>
