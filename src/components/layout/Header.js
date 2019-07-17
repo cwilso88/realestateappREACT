@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import GoogleAuth from '../../auth/GoogleAuth';
 
+
 class Header extends Component {
     constructor() {
         super()
@@ -24,7 +25,6 @@ class Header extends Component {
                         <Link to="/about" >About Us</Link>
                         <Link to="/contact" >Contact</Link>
                         <GoogleAuth />
-                        <Link to="/login" className="register-btn"><i className="icon google"></i>Google Login</Link>
                     </nav>
             </header>
         )

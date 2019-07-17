@@ -33,25 +33,19 @@ header {
             &:hover{
                 color: #FF718E;
             }
-            &.register-btn{
-                background: $pink;
-                text-align: center;
-                color: white;
-                border-radius: 5px;
-                padding: 7px 25px;
-
-            }
         }
     }
 }
 
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 767px) {
     header {
         line-height: 2;
     }
-    header nav a .register-btn {
+    #GoogleAuth .signin-btn {
         display: block;
-        width: 200px;
+        width: 150px;
         margin-top: 15px;
+        font-size: .9rem;
     }
 }
+
