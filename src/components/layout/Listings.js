@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
+import { connect } from 'react-redux';
 
 
-export default class Listings extends Component {
+
+class Listings extends Component {
     constructor() {
         super()
         this.state = {
@@ -11,6 +13,7 @@ export default class Listings extends Component {
         }
         this.loopListings = this.loopListings.bind(this)
     }
+
     loopListings () {
         var {listingsData} = this.props
 
@@ -49,9 +52,10 @@ export default class Listings extends Component {
                                     </div>
                                 </div>
                             
-                            <div className="view-btn-container">
-                                <Link to={`/listing/${listing.id}`} className="view-btn">View Listing</Link>
-                            </div>
+                                <div className="view-btn-container">
+                                 <Link to={`/listing/${listing.id}`} className="view-btn">View Listing</Link>
+                                </div>
+
                         </div>
                         
                         </div>
@@ -158,3 +162,12 @@ export default class Listings extends Component {
         </section>)
     }
 }
+
+const mapStateToProps = state => {
+    return { isSignedIn: state.auth.isSignedIn };
+}
+
+export default connect(
+    mapStateToProps, 
+    null
+)(Listings);
