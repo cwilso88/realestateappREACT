@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
-import { connect } from 'react-redux';
-
-
 
 class Listings extends Component {
     constructor() {
@@ -163,11 +160,4 @@ class Listings extends Component {
     }
 }
 
-const mapStateToProps = state => {
-    return { isSignedIn: state.auth.isSignedIn };
-}
-
-export default connect(
-    mapStateToProps, 
-    null
-)(Listings);
+export default Listings;
