@@ -36,7 +36,7 @@ class Listings extends Component {
                         <div className="col-md-9">
                                 <div className="user-details">
                                     <span className="user-name">Nina Simone</span>
-                                    <span className="post-date">07/31/2018</span>
+                                    <span className="post-date">{listing.postdate}</span>
                                 </div>
                                 <div className="listing-details">
                                     <div className="floor-space">

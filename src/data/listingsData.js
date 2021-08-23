@@ -12,6 +12,7 @@ var listingsData = [
         ],
         homeType: 'Condo',
         estPayment: '2200',
+        postdate: '08/02/2021',
         image: 'http://www.petrealtynetwork.com/wp-content/uploads/2017/11/werwerewrwer.jpg'
     },
 
@@ -28,6 +29,7 @@ var listingsData = [
         ],
         homeType: 'Mansion',
         estPayment: '3500',
+        postdate: '08/20/2021',
         image: 'https://i.pinimg.com/originals/49/b7/10/49b71020328e0ce6f17cd87cb3ac4f4a.jpg'
     },
 
@@ -44,6 +46,7 @@ var listingsData = [
         ],
         homeType: 'Bungalow',
         estPayment: '3200',
+        postdate: '07/12/2021',
         image: 'https://i.pinimg.com/originals/40/92/05/409205fb368715747947816deb3f3c77.jpg'
     },
 
@@ -60,6 +63,7 @@ var listingsData = [
         ],
         homeType: 'Ranch',
         estPayment: '2178',
+        postdate: '07/18/2021',
         image: 'https://1.bp.blogspot.com/-NI8WWnABLSc/UzGQD9c0tGI/AAAAAAAALDE/LY2iBuSBibk/s1600/Stan+Dixon+painted+brick+relaxed+khaki.jpg'
     },
 
@@ -76,6 +80,7 @@ var listingsData = [
         ],
         homeType: 'Mansion',
         estPayment: '4009',
+        postdate: '06/30/2021',
         image: 'https://i.pinimg.com/originals/07/66/89/0766890adf04deeed1b3bced820ec279.jpg'
     },
 
@@ -92,6 +97,7 @@ var listingsData = [
         ],
         homeType: 'Bungalow',
         estPayment: '5402',
+        postdate: '08/19/2021',
         image: 'http://luxport.s3.amazonaws.com/8574/50%2BAvery%2BDrive%2BNe%2BAtlanta%2BGA%2BUSA%2B574257_001_S.jpg'
     },
 
@@ -108,6 +114,7 @@ var listingsData = [
         ],
         homeType: 'Condo',
         estPayment: '4231',
+        postdate: '06/28/2021',
         image: 'https://www.allatlantacondos.com/wp-content/uploads/2016/05/DSC_0085-690x460.jpg'
     },
 
@@ -124,6 +131,7 @@ var listingsData = [
         ],
         homeType: 'Condo',
         estPayment: '2200',
+        postdate: '05/23/2021',
         image: 'https://i.pinimg.com/736x/d0/9a/79/d09a7905192a40d24ee28a45ebc0a180--atlanta-apartments-atlanta-condo.jpg'
     },
 ]
