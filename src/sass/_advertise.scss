@@ -1,0 +1,44 @@
+@import "variables";
+
+#advertise {
+    text-align: center;
+
+    .pages-background-image {
+        position: relative;
+        h1 {
+            font-size: 50px;
+
+        }
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 500px;
+        
+    }
+
+    article {
+        position: absolute;
+        margin-top: 2em;
+
+        main {
+            font-size: 20px;
+            color: $darkpurple;
+            border-top: 1px solid $darkpurple;
+            border-bottom: 1px solid $darkpurple;
+            text-align: left;
+            padding: 60px 20px;
+            margin-left: 7%;
+            margin-right: 7%;
+            line-height: 1.5;
+        }
+
+        h4 {
+            margin: 5% 0;
+            i {
+                font-size: 25px;
+                color: $darkpurple;
+            }
+        }
+    }
+}

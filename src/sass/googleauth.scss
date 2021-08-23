@@ -1,0 +1,23 @@
+#GoogleAuth {
+    a .signin-btn {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-weight: 300;
+        font-size: .2rem;
+
+        &:hover{
+            color: red;
+        }
+    }
+}
+@media screen and (max-width: 567px) {
+    #GoogleAuth {
+        line-height: 2;
+    }
+    #GoogleAuth .signin-btn {
+        display: block;
+        width: 200px;
+        margin-top: 15px;
+    }
+}

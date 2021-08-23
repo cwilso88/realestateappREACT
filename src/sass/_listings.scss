@@ -1,0 +1,51 @@
+header {
+    background: #0C002B;
+    color: white;
+    overflow: auto;
+    padding: 20px 35px;
+
+    .logo {
+        float: left;
+        padding-left: 10px;
+        img {
+            max-width: 70px;
+            max-height: 70px;
+            position: relative;
+            left: 30px;
+            padding-bottom: 10px;
+        }
+
+        h5 {
+            letter-spacing: 1.6px;
+        }
+    }
+
+    nav{
+        float: right;
+        padding-right: 20px;
+        a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: 300;
+            font-size: .9rem;
+
+            &:hover{
+                color: #FF718E;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        line-height: 2;
+    }
+    #GoogleAuth .signin-btn {
+        display: block;
+        width: 150px;
+        margin-top: 15px;
+        font-size: .9rem;
+    }
+}
+
