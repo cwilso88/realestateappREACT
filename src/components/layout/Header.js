@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../img/logo/logo225px.png'
+import logo from '../../img/logo/purplelogo.jpeg'
 //import GoogleAuth from '../../auth/GoogleAuth';
 
 

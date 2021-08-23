@@ -1,5 +1,6 @@
 header {
     background: #0C002B;
+    max-height: 250px;
     color: white;
     overflow: auto;
     padding: 20px 35px;
@@ -24,14 +25,14 @@ header {
         float: right;
         padding-right: 20px;
         a {
-            color: white;
+            color: $gold;
             text-decoration: none;
             padding: 10px 20px;
             font-weight: 300;
-            font-size: .9rem;
+            font-size: 1.2rem;
 
             &:hover{
-                color: #FF718E;
+                color: $offwhite;
             }
         }
     }
